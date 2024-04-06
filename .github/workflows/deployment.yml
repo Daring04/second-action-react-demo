@@ -16,7 +16,7 @@ jobs:
         run: npm test
   deploy:
     runs-on: ubuntu-latest
-    stpes:
+    steps:
       - name: Get code
         uses: action/checkout@v3
       - name: Install NodeJS
